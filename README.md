@@ -15,7 +15,7 @@ Used Data Binding Library for UI
 
 Requirements
 
-Android studio lastest version or above 4.0
+Android studio latest version or above 4.0
 JDK 8
 Android SDK 33
 Supports Minimum API Level 21
