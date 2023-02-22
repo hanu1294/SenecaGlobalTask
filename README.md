@@ -11,7 +11,7 @@ Used Dagger HILT dependency Injection for code reusability and loose coupling
 Used common Resource Data parsing for SUCCESS/FAILURE/LOADING states for API calls
 Used Data Binding Library for UI
 
-=================================================================================================
+=============================================================
 
 Requirements
 
@@ -20,7 +20,7 @@ JDK 8
 Android SDK 33
 Supports Minimum API Level 21
 Material Components 1.8.0
-=================================================================================================
+=============================================================
 
 Dependencies Used in Application
 Dagger HILT -> For dependency Injection
@@ -30,7 +30,7 @@ Kotlin Coroutines
 ViewModel
 LiveData
 
-=================================================================================================
+=============================================================
 
 Application Features Include:
 1. Main screen with List of Cities from India.
@@ -40,4 +40,11 @@ Application Features Include:
 5. Handled API failure for Invalid API key.
 6. Showing Loading Dialog for better user interaction while fetching data
 
-=================================================================================================
+=============================================================
+
+
+NOTE:
+
+For Security Reasonn I have used WEATHER_API_KEY in local.properties file
+But Joy Jannu Asked me to share only GitHub Link for Code I am doing some changes about this
+Now I am using WEATHER_API_KEY as Build Config String.
