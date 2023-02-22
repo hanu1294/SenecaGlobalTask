@@ -45,6 +45,6 @@ Application Features Include:
 
 NOTE:
 
-For Security Reasonn I have used WEATHER_API_KEY in local.properties file
+For Security Reasons I have used WEATHER_API_KEY in local.properties file
 But Joy Jannu Asked me to share only GitHub Link for Code I am doing some changes about this
 Now I am using WEATHER_API_KEY as Build Config String.
