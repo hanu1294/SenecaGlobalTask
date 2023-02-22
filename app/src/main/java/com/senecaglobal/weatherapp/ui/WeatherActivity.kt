@@ -6,6 +6,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
+import com.senecaglobal.weatherapp.BuildConfig
 import com.senecaglobal.weatherapp.R
 import com.senecaglobal.weatherapp.databinding.ActivityWeatherBinding
 import com.senecaglobal.weatherapp.util.CustomProgressDialog
@@ -44,7 +45,11 @@ class WeatherActivity : AppCompatActivity() {
                 if (it.equals("invalid")) {
                     viewModel.getWeatherInformation(it, "invalidApiKey")
                 } else {
-                    viewModel.getWeatherInformation(it, getString(R.string.WEATHER_API_KEY))
+                    //To Fetch Weather API Key from local.properties File
+                    //viewModel.getWeatherInformation(it, getString(R.string.WEATHER_API_KEY))
+
+                    //To Fetch Weather API Key from BuildConfig File
+                    viewModel.getWeatherInformation(it, BuildConfig.WEATHER_API_KEY)
                 }
             }
         }
